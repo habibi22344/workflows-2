@@ -1,11 +1,12 @@
-# Media Templates
-- **podcast_show_notes_generator.json** – supabase/cohere/openai
-- **tv_rating_trend_report.json** – redis/huggingface/huggingface
-- **breaking_news_summarizer.json** – weaviate/huggingface/openai
-- **ad_campaign_performance_alert.json** – pinecone/cohere/openai
-- **content_idea_brainstormer.json** – redis/openai/anthropic
-- **script_dialogue_analyzer.json** – pinecone/huggingface/openai
-- **music_playlist_mood_tagger.json** – redis/openai/openai
-- **live_stream_chat_moderator.json** – supabase/openai/anthropic
-- **social_buzz_heatmap.json** – supabase/openai/huggingface
-- **pr_crisis_detector.json** – redis/openai/huggingface
+# AI_ML Templates
+
+- **summarize_customer_emails.json** – Uses Anthropic Claude, Cohere Embeddings
+- **daily_content_ideas.json** – Uses Cohere Embeddings, OpenAI Chat, Supabase Vector
+- **translate_form_submissions.json** – Uses OpenAI Chat, OpenAI Embeddings, Supabase Vector
+- **resume_screening.json** – Uses Cohere Embeddings, OpenAI Chat
+- **auto-tag_blog_posts.json** – Uses Anthropic Claude, OpenAI Embeddings, Supabase Vector
+- **customer_sentiment_analysis.json** – Uses Anthropic Claude, Cohere Embeddings, Pinecone
+- **image_captioning.json** – Uses Anthropic Claude, OpenAI Embeddings
+- **ticket_urgency_classification.json** – Uses Anthropic Claude, Cohere Embeddings, Pinecone
+- **product_description_generator.json** – Uses Anthropic Claude, Cohere Embeddings, Pinecone
+- **voice_note_transcription.json** – Uses Cohere Embeddings, OpenAI Chat
